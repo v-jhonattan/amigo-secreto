@@ -1,0 +1,346 @@
+:root {
+    --color-primary: #181C14;
+    --color-button: #ffffff;
+    --color-button-hover: rgb(164, 60, 60);
+    --color-text: #000000;
+    --color-white: #ffffff;
+}
+
+/* Estilos gerais */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--color-white);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100%;
+
+}
+
+/* Banner */
+.header-banner {
+    flex: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    
+}
+
+.imgHeader {
+    width: 100%;
+    height: auto;
+    
+}
+
+/* Seção de entrada */
+.input-section {
+    flex: 60%;
+    background-color: var(--color-secondary);
+    border: 1px solid var(--color-text);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1.25rem;
+    width: 100%;
+    
+}
+
+
+.section-title {
+    font-family: "Inter", serif;
+    font-size: 2.25rem;
+    font-weight: 700;
+    color: var(--color-primary);
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+/* Contêineres de entrada e botão */
+.input-wrapper {
+    display: flex;
+    width: 100%;
+    max-width: 37.5rem;
+    margin-top: 0.9rem;
+}
+
+.input-name {
+    width: 100%;
+    padding: 0.75rem;
+    border: 2px solid var(--color-text);
+    border-radius: 25px 0 0 25px;
+    font-size: 1rem;
+    
+}
+
+.button-container {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    max-width: 600px;
+    align-items: center;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+
+
+/* Estilos de entrada de texto */
+.input-title {
+    flex: 1;
+    padding: 10px 15px;
+    font-size: 16px;
+    border: 2px solid #333;
+    border-right: none;
+    border-radius: 25px 0 0 25px;
+    font-family: "Merriweather", serif;
+    
+}
+
+/* Estilos de botão */
+button {
+    width: 50%;
+    max-width: 300px;
+    padding: 12px;
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    border-radius: 25px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.button-add {
+    background-color: var(--color-button);
+    color: var(--color-text);
+    border-radius: 0 25px 25px 0;
+    padding: 12px 20px;
+    font-size: 16px;
+    border: 2px solid var(--color-text);
+}
+
+.button-add:hover {
+    background-color: var(--color-button-hover);
+    color: var(--color-white);
+}
+
+/* Listas */
+ul {
+    list-style-type: none;
+    color: var(--color-text);
+    font-family: "Inter", sans-serif;
+    font-size: 18px;
+    margin: 20px 0;
+    font-weight: bold;
+    text-align: center;
+    
+}
+
+
+.linha-nomes {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 10px;
+    
+}
+
+.nome-item {
+    background-color: var(--color-white);
+    padding: 6px 12px;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: bold;
+    border: 1px solid var(--color-text);
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.result-list {
+    margin-top: 15px;
+    color: var(--color-text);
+    padding: 8px 12px;
+    border-radius: 5px;
+    font-size: 22px;
+    font-weight: bold;
+    text-align: center;
+    
+}
+
+.sorteioBorda {
+    border: none;
+    transition: border 0.3s;
+}
+
+.sorteioBorda.border-ativada {
+    border: 2px solid var(--color-text);
+}
+
+
+/* Botão de sortear título */
+.button-draw {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    color: var(--color-text);
+    background-color: var(--color-button);
+    font-size: 16px;
+    padding: 12px 0;
+}
+
+.button-draw img {
+    margin-right: 40px;
+}
+
+.button-draw:hover {
+    background-color: var(--color-button-hover);
+    color: var(--color-white);
+}
+
+@media (max-width: 770px) {
+
+    .header-banner {
+        flex: 30%;
+    }
+
+    .imgHeader {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .main-content {
+        width: 100%;
+        height: 100%;
+        flex-direction: column;
+    }
+
+    .input-section {
+        width: 100%;
+        padding: 15px;
+    }
+
+    .section-title {
+        font-size: 24px;
+    }
+
+    .input-wrapper {
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+    
+    }
+
+    .input-name {
+        width: 100%;
+        border-radius: 25px;
+        margin-bottom: 10px;
+    }
+
+    .button-add {
+        border-radius: 25px;
+        width: 100%;
+        margin-bottom: 10px;
+        
+    }
+
+    .button-container {
+        flex-direction: column;
+        width: 100%;
+        gap: 10px;
+    }
+
+    button {
+        width: 100%;
+        
+    }
+
+    .button-add:hover, .button-draw:hover {
+        background-color: var(--color-button); 
+        color: var(--color-text); 
+    }
+    
+}
+
+@media (max-width: 480px) {
+
+    .header-banner {
+        flex: 25%;
+    }
+
+    .imgHeader {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .input-section {
+        width: 100%;
+        height: 100%;
+    }
+    
+    .section-title {
+        font-size: 22px;
+    }
+
+    .input-wrapper {
+        max-width: 100%;
+    }
+
+    .input-name, .button-add {
+        font-size: 14px;
+        padding: 10px;
+    }
+
+    .button-container {
+        width: 100%;
+        gap: 8px;
+    }
+
+    button {
+        font-size: 14px;
+        padding: 10px;
+    }
+
+    .button-draw:hover {
+        visibility: hidden;
+    }
+
+    .button-add:hover, .button-draw:hover {
+        background-color: var(--color-button); 
+        color: var(--color-text); 
+    }
+
+}
+
+@media (max-width: 340px) {
+    .linha-nomes {
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .nome-item {
+        font-size: 12px;
+        padding: 4px 8px;
+        
+    }
+
+    .button-add:hover, .button-draw:hover {
+        background-color: var(--color-button); 
+        color: var(--color-text); 
+    }
+}
