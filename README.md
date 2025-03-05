@@ -1,12 +1,12 @@
 
-![readme-header](https://github.com/user-attachments/assets/1509b865-f34e-4969-bb0c-88e7b43e8fb3)
+![arte-header](https://github.com/user-attachments/assets/1509b865-f34e-4969-bb0c-88e7b43e8fb3)
 
-## 📌 Descrição do Projeto
+## 📝 Descrição do Projeto
 
 
 Este projeto foi desenvolvido como parte das atividades do curso da Alura em parceria com a Oracle. Inspirado na Semana de Arte Moderna de 1922 e no Brutalismo, ele traz uma identidade visual marcante. O projeto utiliza tecnologias modernas de desenvolvimento web, garantindo uma experiência intuitiva e dinâmica para os usuários.
 
-## 📌 Funcionalidades do Projeto
+## ⚙️ Funcionalidades do Projeto
 
 
 ✅ Permite adicionar amigos a uma lista
@@ -38,7 +38,10 @@ Este projeto foi desenvolvido como parte das atividades do curso da Alura em par
 
 3️⃣ Abra o arquivo index.html:
 
-🔹 Opção 1 - Abrindo pelo explorador de arquivos: 📂 Basta clicar no arquivo index.html dentro da pasta do projeto
+🔹 Opção 1 - Abrindo pelo explorador de arquivos: 
+
+📂 Basta clicar no arquivo index.html dentro da pasta do projeto
+
 
 🔹 Opção 2 - Abrindo via terminal:
 
@@ -51,11 +54,12 @@ Este projeto foi desenvolvido como parte das atividades do curso da Alura em par
 
 ## 🎨 Exemplo de Interface
 
-🖼️ (Aqui você pode adicionar um GIF ou imagem demonstrando a interface em ação!)
+![exemplo de como fazer o sorteio](https://github.com/user-attachments/assets/76778a69-e8e5-445b-b12b-203c168a8432)
+
 
 ## 🎨 Projeto Base
 
-<img width="753" alt="Captura de Tela 2025-03-03 às 16 46 10" src="https://github.com/user-attachments/assets/8dcb4f11-299b-400e-8601-1c9ca6f2bdf2" />
+<img width="753" alt="Projeto base" src="https://github.com/user-attachments/assets/8dcb4f11-299b-400e-8601-1c9ca6f2bdf2" />
 
 ## 🛠 Tecnologias Utilizadas
 
